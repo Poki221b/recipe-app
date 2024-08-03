@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Grandma's recipes</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Grandma's <span class="logo">Recipes</span></h1>
+            <form>
+                <input type="text" 
+                placeholder="Try some dishes.." 
+                class="search-input"
+                id="search-input">
+                <button class="btn">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h1>Not sure how to make the perfect meal? 
+                    <br> Type your favourite meal above and find out!</h1>
+            </div>
+            <div class="recipe-modal">
+                <button type="button" class="close-modal-btn">x</button>
+                <div class="recipe-description"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
